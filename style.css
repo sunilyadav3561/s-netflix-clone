@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(assets/image/Background\ image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0 ;
+
+}
+nav{
+    max-width: 70vw;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    height: 42px;
+
+}
+nav img{
+       color:rgb(255, 0, 0);
+       width: 124px;
+       position: relative;
+       z-index: 10;
+       top: 5px;
+
+}
+nav button{
+ position: relative;
+       z-index: 10;
+
+
+}
+.hero{
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 12px;
+    padding: 34px;
+    text-align: center;
+}
+button{
+    background-color:red;
+    border-radius: 4px;
+
+}
+.separation{
+    height: 11px;
+    background-color: rgba(60, 60, 60, 0.818);
+}
+.btn{
+    
+    background-color: white;
+    color: black;
+}
+button{
+    color: rgba(255, 255, 255);
+
+}
+.hero input{
+    padding: 3px ;
+    font-size: 20px;
+     border-radius: 4px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.secImg{
+    position: relative;
+
+}
+
+.secImg img{
+    width:36vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.first > div :first-child{
+          font-size: 48px;
+          font-weight:bolder;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+}
+.first div {
+    display: flex;
+    flex-direction: column;
+}
+.faq h2{
+    text-align: center;
+    font-size: 42px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    font-size: 18px;
+}
+.faqbox:hover{ 
+    background-color: red;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 64, 64);
+    padding: 15px;
+    max-width: 60vw;
+    margin: 24px auto;
+    cursor: pointer;
+}
